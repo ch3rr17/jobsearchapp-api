@@ -1,0 +1,55 @@
+{
+  "name": "jobsearch",
+  "plural": "jobsearches",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "dateApplied": {
+      "type": "date",
+      "required": true
+    },
+    "companyName": {
+      "type": "string",
+      "required": true
+    },
+    "positionTitle": {
+      "type": "string"
+    },
+    "reqNumber": {
+      "type": "string"
+    },
+    "contactName": {
+      "type": "string"
+    },
+    "contactEmail": {
+      "type": "string"
+    },
+    "contactTitle": {
+      "type": "string"
+    },
+    "status": {
+      "type": [
+        "string"
+      ],
+      "default": [
+        "Applied",
+        "Interview",
+        "Next",
+        "Round",
+        "Awaiting",
+        "Results",
+        "Rejected"
+      ]
+    },
+    "jobPostingUrl": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
