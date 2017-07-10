@@ -9,11 +9,9 @@
   "properties": {
     "firstname": {
       "type": "string"
-     
     },
     "lastname": {
       "type": "string"
-      
     }
   },
   "validations": [],

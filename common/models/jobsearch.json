@@ -49,7 +49,15 @@
     }
   },
   "validations": [],
-  "relations": {},
-  "acls": [],
+  "relations": {
+    "alumni": {
+      "type": "belongsTo",
+      "model": "alumni",
+      "foreignKey": "alumniId"
+    }
+  },
+  "acls": [
+    
+  ],
   "methods": {}
 }
