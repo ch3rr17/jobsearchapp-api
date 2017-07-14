@@ -3,14 +3,24 @@
     "name": "db",
     "connector": "memory"
   },
-  "mongo": {
-    "host": "localhost",
-    "port": 27017,
-    "url": "mongodb://localhost/jobsearch",
-    "database": "jobsearch",
-    "password": "test123",
-    "name": "mongo",
-    "user": "jobsearch",
+  // "mongo": {
+  //   "host": "localhost",
+  //   "port": 27017,
+  //   "url": "mongodb://localhost/jobsearch",
+  //   "database": "jobsearch",
+  //   "password": "test123",
+  //   "name": "mongo",
+  //   "user": "jobsearch",
+  //   "connector": "mongodb"
+  // }
+"mongodb": {
+    "host": "ds157702.mlab.com",
+    "port": 57702,
+    "database": "heroku_3ggkz49r",
+    "username": "heroku_3ggkz49r",
+    "password": "kqts8n11vkihg2hbl19iq2cbku",
+    "name": "mongodb",
     "connector": "mongodb"
   }
+
 }
