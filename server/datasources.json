@@ -7,9 +7,9 @@
 "mongo": {
     "host": "ds157702.mlab.com",
     "port": 57702,
-    "database": "heroku_3ggkz49r",
-    "username": "admin",
-    "password": "kqts8n11vkihg2hbl19iq2cbku",
+    "database": "db",
+    "username": "user",
+    "password": "pass",
     "name": "mongo",
     "connector": "mongodb"
   }
