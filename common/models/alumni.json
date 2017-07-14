@@ -41,12 +41,6 @@
       "principalId": "$authenticated",
       "permission": "ALLOW",
       "property": "__get__jobsearches"
-    },{
-      "accessType": "EXECUTE",
-      "principalType": "ROLE",
-      "principalId": "$authenticated",
-      "permission": "ALLOW",
-      "property": "__post__jobsearches"
     }
   ],
   "methods": {}
