@@ -13,7 +13,7 @@
   //   "user": "jobsearch",
   //   "connector": "mongodb"
   // }
-"mongodb": {
+"mongo": {
     "host": "ds157702.mlab.com",
     "port": 57702,
     "database": "heroku_3ggkz49r",
